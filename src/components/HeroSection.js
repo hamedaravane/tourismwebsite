@@ -8,7 +8,7 @@ const HeroSection = () => {
             <img src={require('../assets/steven-su-AxhfHp6fJ2M-unsplash.jpg')}/>
             <div className='hero-buttons'>
                 <input className='search-input' type='text' placeholder='Type City...' autoComplete={false}/>
-                <Button to='/' buttonStyle='btn--primary' buttonSize={'btn--large'}>
+                <Button to='/' buttonStyle={'btn--search'} buttonSize={'btn--medium'}>
                     Serach
                 </Button>
             </div>
