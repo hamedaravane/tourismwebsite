@@ -8,33 +8,33 @@ const Cards = () => {
             <h1>Featured places</h1>
             <div className='cards__container'>
                 <div className='cards__wrapper'>
-                    <ul className='cards__item'>
+                    <ul className='cards__items'>
                         <CardItem path='/'
-                                  text='Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
                                   src='images/1.jpg'
-                                  label='Luxury'
+                                  text='Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+                                  label='Cultural'
                         />
                         <CardItem path='/'
                                   text='Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
                                   src='images/2.jpg'
-                                  label='Great'
+                                  label='Cultural'
                         />
                     </ul>
                     <ul className='cards__item'>
                         <CardItem path='/'
                                   text='Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
-                                  src='images/1.jpg'
-                                  label='Luxury'
+                                  src='images/3.jpg'
+                                  label='Historical'
                         />
                         <CardItem path='/'
                                   text='Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
-                                  src='images/2.jpg'
-                                  label='Great'
+                                  src='images/4.jpg'
+                                  label='Nature'
                         />
                         <CardItem path='/'
                                   text='Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
-                                  src='images/2.jpg'
-                                  label='Great'
+                                  src='images/5.jpg'
+                                  label='Nature'
                         />
                     </ul>
                 </div>

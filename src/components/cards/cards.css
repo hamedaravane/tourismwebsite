@@ -31,6 +31,10 @@ h1 {
     border-radius: 10px;
 }
 
+.cards__items {
+    padding: 2rem;
+}
+
 .cards__item__link {
     display: flex;
     flex-flow: column;
@@ -50,11 +54,6 @@ h1 {
     overflow: hidden;
 }
 
-.fade-img {
-    animation-name: fade-img;
-    animation-duration: 2s;
-}
-
 .cards__item__pic__wrap::after {
     content: attr(data-category);
     position: absolute;
@@ -67,6 +66,11 @@ h1 {
     color: #fff;
     background-color: #1f98f4;
     box-sizing: border-box;
+}
+
+.fade-img {
+    animation-name: fade-img;
+    animation-duration: 2s;
 }
 
 .cards__item__img {
@@ -85,7 +89,7 @@ h1 {
 }
 
 .cards__item__img:hover {
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 
 .cards__item__info {
