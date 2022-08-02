@@ -5,7 +5,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: IRANSans;
+    font-family: 'Poppins', sans-serif;
 }
 
 .footer-subscription {
@@ -21,7 +21,7 @@
 }
 
 .footer-subscription > p {
-    font-family: IRANSans
+    font-family: 'Poppins', sans-serif
 }
 
 .footer-subscription-heading {
@@ -43,7 +43,7 @@
     font-size: 18px;
     margin-bottom: 16px;
     border: 1px solid #cccccc;
-    font-family: IRANSans;
+    font-family: 'Poppins', sans-serif;
 }
 
 .footer-links {
@@ -145,7 +145,7 @@
 
     .footer-input {
         width: 100%;
-        margin-right: 0px;
+        margin-right: 0;
     }
 
     .btn {

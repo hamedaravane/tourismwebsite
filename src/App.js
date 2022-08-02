@@ -13,8 +13,8 @@ function App() {
                     <Route path='/' exact component={Home}/>
                 </Routes>
                 <Home/>
+                <Footer/>
             </Router>
-            <Footer/>
         </>
     );
 }
